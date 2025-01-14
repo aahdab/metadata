@@ -1,0 +1,8 @@
+{
+    "name": "Hybrid Token",
+    "symbol": "HDT",
+    "description": "Your token description",
+    "image": "https://your-logo-url.png",  
+    "external_url": "your-website.com",
+    "attributes": []
+}
