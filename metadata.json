@@ -1,8 +1,20 @@
 {
-    "name": "Hybrid Token",
-    "symbol": "HDT",
-    "description": "Your token description",
-    "image": "https://your-logo-url.png",  
-    "external_url": "your-website.com",
-    "attributes": []
+  "name": "Hybrid",
+  "symbol": "HDT",
+  "description": "This is a description of the Hybrid Token.",
+  "seller_fee_basis_points": 500,
+  "image": "https://example.com/token-image.png",
+  "external_url": "https://yourwebsite.com",
+  "attributes": [
+    { "trait_type": "Category", "value": "Token" },
+    { "trait_type": "Version", "value": "1.0" }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://example.com/token-image.png",
+        "type": "image/png"
+      }
+    ]
+  }
 }
