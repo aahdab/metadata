@@ -1,6 +1,32 @@
 {
-    "name": "My Token",
-    "symbol": "MTK",
-    "description": "A sample token with metadata.",
-    "image": "https://example.com/image.png"
+    "name": "Hybrid Token",
+    "symbol": "HDT",
+    "description": "A hybrid token with transfer fees and metadata support",
+    "image": "https://arweave.net/your-token-image.png",
+    "external_url": "https://your-website.com",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Utility Token"
+        },
+        {
+            "trait_type": "Transfer Fee",
+            "value": "3%"
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": "https://arweave.net/your-token-image.png",
+                "type": "image/png"
+            }
+        ],
+        "category": "token",
+        "creators": [
+            {
+                "address": "35hEr8AghvDjdEAB9J9zWEy6KfZaokgbTa4rMDgBf3yt",
+                "share": 100
+            }
+        ]
+    }
 }
