@@ -1,32 +1,49 @@
 {
-    "name": "Hybrid Token",
-    "symbol": "HDT",
-    "description": "A hybrid token with transfer fees and metadata support",
-    "image": "https://arweave.net/your-token-image.png",
+    "name": "Hybrid",
+    "symbol": "HYB",
+    "description": "وصف تفصيلي للتوكن الخاص بك",
+    "image": "https://arweave.net/YOUR_IMAGE_LINK",
     "external_url": "https://your-website.com",
+    "seller_fee_basis_points": 0,
     "attributes": [
         {
-            "trait_type": "Type",
-            "value": "Utility Token"
+            "trait_type": "نوع",
+            "value": "SLP Token"
         },
         {
-            "trait_type": "Transfer Fee",
-            "value": "3%"
+            "trait_type": "شبكة",
+            "value": "Solana"
         }
     ],
     "properties": {
         "files": [
             {
-                "uri": "https://arweave.net/your-token-image.png",
-                "type": "image/png"
+                "uri": "https://arweave.net/YOUR_IMAGE_LINK",
+                "type": "image/png",
+                "cdn": false
             }
         ],
         "category": "token",
         "creators": [
             {
-                "address": "35hEr8AghvDjdEAB9J9zWEy6KfZaokgbTa4rMDgBf3yt",
-                "share": 100
+                "address": "YOUR_WALLET_ADDRESS",
+                "share": 100,
+                "verified": true
             }
-        ]
+        ],
+        "collection": {
+            "name": "اسم المجموعة",
+            "family": "اسم العائلة"
+        },
+        "supply": "1000000000",
+        "decimals": 9,
+        "tokenStandard": "Fungible",
+        "isMutable": false,
+        "social": {
+            "twitter": "https://twitter.com/YOUR_TWITTER",
+            "discord": "https://discord.gg/YOUR_DISCORD",
+            "telegram": "https://t.me/YOUR_TELEGRAM"
+        }
     }
 }
+  
